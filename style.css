@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Sans:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  outline: 0;
+  /* overflow: auto; */
+}
+
+body {
+  background-size: cover;
+  overflow: scroll;
+  background-color: blanchedalmond;
+}
+
+/* Imagem churrascometro */
+
+.logo {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  margin: auto auto 1.5rem auto;
+  max-width: 100%;
+}
+
+/* Div Principal */
+
+.container {
+  background-color: rgb(223, 176, 74);
+  text-align: center;
+  padding: 1.5rem;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+}
+/* Inputs de texto */
+.inputs {
+  width: 50%;
+  padding: 0.81rem;
+  font-family: "Comfortaa", sans-serif;
+  margin-bottom: 1rem;
+  background-color: rgb(112, 84, 41);
+  border: none;
+  border-radius: 5px;
+  max-width: 28rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
+
+input::placeholder {
+  color: rgb(136, 136, 136);
+}
+/* Botão calcular */
+#button {
+  background-color: yellow;
+  padding: 1rem;
+  border-radius: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  width: 10rem;
+  cursor: pointer;
+  transition: 0.4s;
+  opacity: 0.6;
+  border: hidden;
+}
+
+#button:hover {
+  background-color: rgb(156, 167, 4);
+  opacity: 1;
+}
+
+#button:active {
+  color: white;
+}
+
+/* Resultado */
+
+.result-block {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  margin-top: 1rem;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+p {
+  font-family: "Comfortaa";
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.blackdrink {
+  color: black;
+}
+
+.result-block img{
+    width: 1.5rem;
+    float: left;
+    margin-top: 1rem;
+}
+
+/* Gambiarras para responsividade desktop*/
+
+@media (min-height: 700px) {
+  body {
+    overflow: hidden;
+  }
+  .container {
+    background-color: rgb(223, 176, 74);
+    text-align: center;
+    height: 60vh;
+    padding: 1.5rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+}
