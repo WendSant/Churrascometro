@@ -14,7 +14,9 @@ O calculo foi feito em cima das seguintes informações:
 - Crianças valem por 0,5
 
 
-
+<p align="center" >
+Teste o projeto: https://wendsant.github.io/Churrascometro/
+</p>
 
 <p align="center" >
 Imagens do projeto:
