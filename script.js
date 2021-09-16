@@ -57,14 +57,14 @@ function calcular() {
       resultado.innerHTML = `
     <div class="result-block">
       <img src="./assets/steak2.svg"/>
-      <p>${qdtTotalCarne} gramas de carne</p>
+      <p>${qdtTotalCarne} gramas de carne.</p>
     </div>
   `;
     } else {
       resultado.innerHTML = `
     <div class="result-block">
       <img src="./assets/steak2.svg"/>
-      <p>${qdtTotalCarne / 1000} Kg de carne</p>
+      <p>${qdtTotalCarne / 1000} Kg de carne.</p>
     </div>
   `;
     }
@@ -72,7 +72,7 @@ function calcular() {
     resultado.innerHTML += `
     <div class="result-block">
       <img src="./assets/beer.svg"/>
-      <p>${Math.ceil(qdtTotalCerveja / 355)} latinhas de cerveja</p>
+      <p>${Math.ceil(qdtTotalCerveja / 355)} latinhas de cerveja.</p>
     </div>
   `;
     resultado.innerHTML += `
@@ -80,7 +80,7 @@ function calcular() {
       <img class="blackdrink" src="./assets/drinks.png"/>
       <p>${Math.ceil(
         qdtTotalBebidas / 2000
-      )} garrafas de refrigerante ou soda</p>
+      )} garrafas de refrigerante ou soda.</p>
     </div>
     </br>
    
